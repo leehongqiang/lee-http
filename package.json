@@ -1,0 +1,27 @@
+{
+    "name": "lee-http",
+    "version": "1.0.0",
+    "description": "封装axios",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/leehongqiang/lee-http.git"
+    },
+    "keywords": [
+        "http"
+    ],
+    "author": "lee",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/leehongqiang/lee-http/issues"
+    },
+    "homepage": "https://github.com/leehongqiang/lee-http#readme",
+    "dependencies": {
+        "axios": "^0.18.0",
+        "vue": "^2.5.2",
+        "vue-axios": "^2.1.1"
+    }
+}
