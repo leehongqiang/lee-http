@@ -1,7 +1,4 @@
-import Vue from 'vue';
-import VueAxios from 'vue-axios';
 import Http from 'axios';
-Vue.use(VueAxios, Http);
 class Ajax {
     constructor() {
         this.http = Http;
@@ -33,5 +30,4 @@ class Ajax {
 }
 
 const http = new Ajax();
-
 export default http;
